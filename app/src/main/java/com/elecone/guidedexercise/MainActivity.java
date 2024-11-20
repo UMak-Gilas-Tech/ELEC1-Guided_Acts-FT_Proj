@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.startButton13).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                launchActivity(GuidedActivity13.class, "Guided Exercise 13");
+                launchActivity(GuidedActivityThirteen.class, "Guided Exercise 13");
             }
         });
 

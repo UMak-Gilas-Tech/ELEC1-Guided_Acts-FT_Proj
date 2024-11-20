@@ -37,7 +37,7 @@
             android:exported="true" />
 
         <!-- Declaring other Guided Activities (commented out for now) -->
-        <!-- <activity android:name=".GuidedActivity13" android:exported="true" /> -->
+         <activity android:name=".GuidedActivityThirteen" android:exported="true" />
         <!-- <activity android:name=".GuidedActivity14" android:exported="true" /> -->
         <!-- <activity android:name=".GuidedActivity15" android:exported="true" /> -->
 

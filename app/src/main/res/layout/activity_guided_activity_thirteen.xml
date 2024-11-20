@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- App Header -->
+    <TextView
+        android:id="@+id/tvHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text=" "
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="#FFFFFF"
+        android:fontFamily="sans-serif-medium" />
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="SQLite Demo"
+        android:textColor="#666666"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal" />
+
+    <!-- Input Fields -->
+    <EditText
+        android:id="@+id/etStudentID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID"
+        android:layout_marginTop="16dp"
+        android:inputType="number"
+        android:enabled="false"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etStudentName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student Name"
+        android:layout_marginTop="8dp"
+        android:inputType="textPersonName"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp" />
+
+    <EditText
+        android:id="@+id/etStudentSemGrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Semestral Grade"
+        android:layout_marginTop="8dp"
+        android:inputType="numberDecimal"
+        android:backgroundTint="#6200EE"
+        android:padding="12dp" />
+
+    <!-- Action Buttons in Grid -->
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:columnCount="2">
+
+        <Button
+            android:id="@+id/btnAddRecord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="ADD RECORD"
+            android:textAllCaps="true"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:contentDescription="Add a student record" />
+
+        <Button
+            android:id="@+id/btnDeleteRecord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="DELETE RECORD"
+            android:textAllCaps="true"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:contentDescription="Delete a student record" />
+
+        <Button
+            android:id="@+id/btnEditRecord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="EDIT RECORD"
+            android:textAllCaps="true"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:contentDescription="Edit a student record" />
+
+        <Button
+            android:id="@+id/btnViewRecord"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_columnWeight="1"
+            android:layout_margin="4dp"
+            android:text="VIEW RECORD"
+            android:textAllCaps="true"
+            android:backgroundTint="#6200EE"
+            android:textColor="#FFFFFF"
+            android:padding="8dp"
+            android:contentDescription="View a student record" />
+    </GridLayout>
+
+    <!-- View All Records Button -->
+    <Button
+        android:id="@+id/btnViewAllRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="VIEW ALL RECORDS"
+        android:textAllCaps="true"
+        android:backgroundTint="#6200EE"
+        android:textColor="#FFFFFF"
+        android:padding="12dp"
+        android:contentDescription="View all student records" />
+
+</LinearLayout>
