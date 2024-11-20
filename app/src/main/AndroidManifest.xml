@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools">
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.elecone.guidedexercise">
 
     <application
         android:allowBackup="true"
@@ -12,15 +13,34 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
+
+        <!-- MainActivity is the entry point of the app -->
         <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Declaring GuidedActivityTwelve (renamed from GuidedActivity12) with NoActionBar theme -->
+        <activity
+            android:name=".GuidedActivityTwelve"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true" />
+
+        <!-- Declaring GA12Home (renamed from GuidedActivityHome) with NoActionBar theme -->
+        <activity
+            android:name=".GA12Home"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="true" />
+
+        <!-- Declaring other Guided Activities (commented out for now) -->
+        <!-- <activity android:name=".GuidedActivity13" android:exported="true" /> -->
+        <!-- <activity android:name=".GuidedActivity14" android:exported="true" /> -->
+        <!-- <activity android:name=".GuidedActivity15" android:exported="true" /> -->
+
     </application>
 
 </manifest>

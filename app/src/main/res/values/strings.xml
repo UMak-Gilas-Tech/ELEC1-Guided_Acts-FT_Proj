@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Guided Exercises</string>
+    <string name="button_guided_exercise_12">Start Guided Exercise 12</string>
+    <string name="button_guided_exercise_13">Start Guided Exercise 13</string>
+    <string name="button_guided_exercise_14">Start Guided Exercise 14</string>
+    <string name="button_guided_exercise_15">Start Guided Exercise 15</string>
 </resources>
