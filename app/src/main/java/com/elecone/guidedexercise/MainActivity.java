@@ -2,7 +2,7 @@ package com.elecone.guidedexercise;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.view.View;
+import android.widget.Button;
 import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -13,46 +13,40 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Set onClickListener for Guided Exercise 12 button
-        findViewById(R.id.startButton12).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                launchActivity(GuidedActivityTwelve.class, "Guided Exercise 12");
-            }
-        });
+        // Set up button and activity pairs
+        Button[] buttons = {
+                findViewById(R.id.startButton12),
+                findViewById(R.id.startButton13),
+                findViewById(R.id.startButton14),
+                findViewById(R.id.startButton15)
+        };
 
-        // Set onClickListener for Guided Exercise 13 button
-        findViewById(R.id.startButton13).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                launchActivity(GuidedActivityThirteen.class, "Guided Exercise 13");
-            }
-        });
+        Class<?>[] activities = {
+                GuidedActivityTwelve.class,
+                GuidedActivityThirteen.class,
+                GuidedActivityFourteen.class,
+                GuidedActivityFifteen.class
+        };
 
-        // Set onClickListener for Guided Exercise 14 button
-        findViewById(R.id.startButton14).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                launchActivity(GuidedActivityFourteen.class, "Guided Exercise 14");
-            }
-        });
+        String[] activityNames = {
+                "Guided Exercise 12",
+                "Guided Exercise 13",
+                "Guided Exercise 14",
+                "Guided Exercise 15"
+        };
 
-        // Set onClickListener for Guided Exercise 15 button
-        findViewById(R.id.startButton15).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-//                launchActivity(GuidedActivity15.class, "Guided Exercise 15");
-            }
-        });
+        // Set onClickListeners for all buttons
+        for (int i = 0; i < buttons.length; i++) {
+            final int index = i; // Capture current index in the loop
+            buttons[i].setOnClickListener(v -> launchActivity(activities[index], activityNames[index]));
+        }
     }
 
     // Helper method to launch an activity with error handling
     private void launchActivity(Class<?> activityClass, String activityName) {
         try {
-            // Start the activity
             startActivity(new Intent(MainActivity.this, activityClass));
         } catch (Exception e) {
-            // Show error toast if activity cannot be started
             Toast.makeText(MainActivity.this, "Error loading " + activityName + ": " + e.getMessage(), Toast.LENGTH_SHORT).show();
         }
     }
