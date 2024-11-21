@@ -63,7 +63,7 @@ public class GuidedActivityThirteen extends BaseActivity  {
                 "student_name TEXT, " +
                 "student_semGrade INTEGER);");
 
-        studentId.setEnabled(false); // Disable ID input by default
+        studentId.setEnabled(true);
         studentName.requestFocus();
     }
 
