@@ -1,27 +1,34 @@
 <resources>
     <string name="app_name">Guided Exercises</string>
 
-    <string name="button_guided_exercise_1">Guided Exercise 1</string>
-    <string name="button_guided_exercise_2">Guided Exercise 2</string>
-    <string name="button_guided_exercise_3">Guided Exercise 3</string>
-    <string name="button_guided_exercise_4">Guided Exercise 4</string>
+    <string name="button_guided_exercise_1">GE1: EditText TextView + Button</string>
+    <string name="button_guided_exercise_2">GE2: Toast</string>
+    <string name="button_guided_exercise_3">GE3: Simple Computation</string>
+    <string name="button_guided_exercise_4">GE4: TextPassword + TextColor</string>
 
-    <string name="button_guided_exercise_5">Guided Exercise 5</string>
-    <string name="button_guided_exercise_6">Guided Exercise 6</string>
-    <string name="button_guided_exercise_7">Guided Exercise 7</string>
-    <string name="button_guided_exercise_8">Guided Exercise 8</string>
+    <string name="button_guided_exercise_5">GE5: RadioGroup, Button + BGColor</string>
+    <string name="button_guided_exercise_6">GE6: CheckBox</string>
+    <string name="button_guided_exercise_7">GE7: RatingBar + AlertDialog</string>
+    <string name="button_guided_exercise_8">GE8: Spinner</string>
 
-    <string name="button_guided_exercise_9">Guided Exercise 9</string>
-    <string name="button_guided_exercise_10">Guided Exercise 10</string>
-    <string name="button_guided_exercise_11">Guided Exercise 11</string>
+    <string name="button_guided_exercise_9">GE9: ListView</string>
+    <string name="button_guided_exercise_10">GE10: WebView + AutoComplete</string>
+    <string name="button_guided_exercise_11">GE11: Intent</string>
 
-    <string name="button_guided_exercise_12">Guided Exercise 12</string>
-    <string name="button_guided_exercise_13">Guided Exercise 13</string>
-    <string name="button_guided_exercise_14">Guided Exercise 14</string>
-    <string name="button_guided_exercise_15">Guided Exercise 15</string>
+    <string name="button_guided_exercise_12">GE12: Splash Screen</string>
+    <string name="button_guided_exercise_13">GE13: SQLite</string>
+    <string name="button_guided_exercise_14">GE14: Drag and Drop</string>
+    <string name="button_guided_exercise_15">GE15: SMS and Phone Call</string>
 
-    <string name="button_guided_exercise_16">Guided Exercise 16</string>
-    <string name="button_guided_exercise_17">Guided Exercise 17</string>
+    <string name="button_guided_exercise_16">GE16: Email and Camera</string>
+    <string name="button_guided_exercise_17">GE17: Notification + Broadcast Receiver</string>
+
+    <string name="button_guided_mp1">MP1: </string>
+    <string name="button_guided_mp2">MP2: Android Simple Calculator</string>
+    <string name="button_guided_mp3">MP3: Semestral Grade Computation</string>
+    <string name="button_guided_mp4">MP4: Employee Payroll Computation</string>
+
+    <string name="button_guided_credits">Credits: </string>
 
     <string name="app_name_14">Drag and Drop Exercise</string>
     <string name="status_waiting">Status: Waiting for Action</string>
