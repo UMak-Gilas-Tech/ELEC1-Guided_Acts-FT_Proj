@@ -36,10 +36,12 @@
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="true" />
 
-        <!-- Declaring other Guided Activities (commented out for now) -->
-         <activity android:name=".GuidedActivityThirteen" android:exported="true" />
-        <!-- <activity android:name=".GuidedActivity14" android:exported="true" /> -->
-        <!-- <activity android:name=".GuidedActivity15" android:exported="true" /> -->
+        <!-- Guided Activity 13 -->
+        <activity android:name=".GuidedActivityThirteen" android:exported="true" />
+
+        <!-- Guided Activity 14 -->
+         <activity android:name=".GuidedActivityFourteen" android:exported="true" />
+        <!-- <activity android:name=".GuidedActivityFifteen" android:exported="true" /> -->
 
     </application>
 

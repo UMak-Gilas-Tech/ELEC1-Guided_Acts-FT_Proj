@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.startButton14).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-//                launchActivity(GuidedActivity14.class, "Guided Exercise 14");
+                launchActivity(GuidedActivityFourteen.class, "Guided Exercise 14");
             }
         });
 

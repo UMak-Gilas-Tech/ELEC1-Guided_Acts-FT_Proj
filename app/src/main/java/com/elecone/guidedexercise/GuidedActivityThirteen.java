@@ -11,7 +11,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 
-public class GuidedActivityThirteen extends AppCompatActivity {
+public class GuidedActivityThirteen extends BaseActivity  {
 
     // UI Components
     private EditText studentId, studentName, studentSemGrade;
@@ -203,13 +203,4 @@ public class GuidedActivityThirteen extends AppCompatActivity {
         displayMessage("Student Records", buffer.toString());
     }
 
-    // Handle back button press
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == android.R.id.home) {
-            onBackPressed();  // Go back to the previous screen
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
 }

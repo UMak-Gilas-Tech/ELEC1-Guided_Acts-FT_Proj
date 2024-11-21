@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/clDragNDrop"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".GuidedActivityFourteen">
+
+    <!-- Title in the center -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/drag_and_drop_title"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- 2x2 grid of images -->
+
+    <!-- Instructions Text: "Drag and Drop Your Hero Here!" -->
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:columnCount="2"
+        android:horizontalSpacing="16dp"
+        android:verticalSpacing="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTitle"
+        android:layout_marginTop="30dp"
+        app:layout_constraintWidth_percent="0.8">
+
+
+        <ImageView
+            android:id="@+id/ivBatman"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/batman"
+            android:src="@drawable/batman"
+            android:layout_marginBottom="15dp"
+            android:tag="batman" />
+
+        <ImageView
+            android:id="@+id/ivIronman"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/ironman"
+            android:src="@drawable/ironman"
+            android:layout_marginStart="100dp"
+            android:tag="ironman" />
+
+        <ImageView
+            android:id="@+id/ivWolverine"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:contentDescription="@string/wolverine"
+            android:src="@drawable/wolverine"
+            android:tag="wolverine" />
+
+        <ImageView
+            android:id="@+id/ivSuperman"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="100dp"
+            android:contentDescription="@string/superman"
+            android:src="@drawable/superman"
+            android:tag="superman" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/tvNameOfHero"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/drop_area_hint"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@id/gridLayout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"/>
+
+    <!-- Drop Area with border and placeholder image -->
+    <ImageView
+        android:id="@+id/ivHero"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hero"
+        android:background="@drawable/drop_area_border"
+        android:scaleType="centerInside"
+        android:contentDescription="Hero Placeholder"
+        app:layout_constraintTop_toBottomOf="@id/tvNameOfHero"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Status Text -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="@string/status_waiting"
+        android:layout_marginTop="12dp"
+    android:textSize="14sp"
+    android:textColor="@color/black"
+    android:gravity="center"
+    app:layout_constraintTop_toBottomOf="@id/ivHero"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,4 +4,18 @@
     <string name="button_guided_exercise_13">Start Guided Exercise 13</string>
     <string name="button_guided_exercise_14">Start Guided Exercise 14</string>
     <string name="button_guided_exercise_15">Start Guided Exercise 15</string>
+
+    <string name="app_name_14">Drag and Drop Exercise</string>
+    <string name="status_waiting">Status: Waiting for Action</string>
+    <string name="batman">Batman</string>
+    <string name="superman">Superman</string>
+    <string name="ironman">Ironman</string>
+    <string name="wolverine">Wolverine</string>
+    <string name="drop_area_hint">Drag and Drop Your Hero Here!</string>
+    <string name="drag_started">ACTION_DRAG_STARTED</string>
+    <string name="drag_entered">ACTION_DRAG_ENTERED</string>
+    <string name="drag_exited">ACTION_DRAG_EXITED</string>
+    <string name="drag_dropped">ACTION_DROP</string>
+    <string name="drag_ended">ACTION_DRAG_ENDED</string>
+    <string name="drag_and_drop_title">Drag and Drop</string>
 </resources>
