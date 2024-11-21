@@ -34,7 +34,14 @@
         </activity>
 
 
-    <!-- ///// Assigned to Sebastian: /////  -->
+        <!-- Guided Activity 1 -->
+        <activity android:name=".GuidedActivityOne" android:exported="true" />
+        <!-- Guided Activity 2 -->
+        <activity android:name=".GuidedActivityTwo" android:exported="true" />
+        <!-- Guided Activity 3 -->
+        <activity android:name=".GuidedActivityThree" android:exported="true" />
+        <!-- Guided Activity 4 -->
+        <activity android:name=".GuidedActivityFour" android:exported="true" />
         <!-- Guided Activity 5 -->
         <activity android:name=".GuidedActivityFive" android:exported="true" />
         <!-- Guided Activity 6 -->
@@ -43,26 +50,30 @@
         <activity android:name=".GuidedActivitySeven" android:exported="true" />
         <!-- Guided Activity 8 -->
         <activity android:name=".GuidedActivityEight" android:exported="true" />
+        <!-- Guided Activity 9 -->
+        <activity android:name=".GuidedActivityNine" android:exported="true" />
+        <!-- Guided Activity 10 -->
+        <activity android:name=".GuidedActivityTen" android:exported="true" />
+        <!-- Guided Activity 11 -->
+        <activity android:name=".GuidedActivityEleven" android:exported="true" />
 
-    <!-- ///// Assigned to Mark : /////  -->
-        <!-- Declaring GuidedActivityTwelve -->
-        <activity
-            android:name=".GuidedActivityTwelve"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="true" />
-
+        <!-- Guided Activity 12 -->
+        <activity android:name=".GuidedActivityTwelve" android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
         <!-- Declaring GA12Home -->
         <activity android:name=".GA12Home" android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <!-- Guided Activity 13 -->
         <activity android:name=".GuidedActivityThirteen" android:exported="true" />
-
         <!-- Guided Activity 14 -->
          <activity android:name=".GuidedActivityFourteen" android:exported="true" />
-
         <!-- Guided Activity 15 -->
          <activity android:name=".GuidedActivityFifteen" android:exported="true" />
+        <!-- Guided Activity 16 -->
+        <activity android:name=".GuidedActivitySixteen" android:exported="true" />
+        <!-- Guided Activity 17 -->
+        <activity android:name=".GuidedActivitySeventeen" android:exported="true" />
 
     </application>
 
