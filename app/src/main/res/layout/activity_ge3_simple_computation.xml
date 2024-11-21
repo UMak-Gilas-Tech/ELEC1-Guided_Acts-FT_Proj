@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sum and Average\nGuided Exercise"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- Input 1 -->
+    <EditText
+        android:id="@+id/etNum1GE3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter first number"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Input 2 -->
+    <EditText
+        android:id="@+id/etNum2GE3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Enter second number"
+        android:inputType="numberDecimal"
+        android:padding="10dp"
+        android:layout_marginBottom="32dp"/>
+
+    <!-- SUM Button -->
+    <Button
+        android:id="@+id/btnSumGE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUM"
+        android:padding="16dp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- AVERAGE Button -->
+    <Button
+        android:id="@+id/btnAveGE3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="AVE"
+        android:padding="16dp"/>
+
+</LinearLayout>
