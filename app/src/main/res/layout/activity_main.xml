@@ -33,6 +33,57 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
+        <!-- Added buttons for Guided Exercises 5-8 -->
+
+        <!-- GActivity: 5 -->
+        <Button
+            android:id="@+id/startButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_guided_exercise_5"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:background="@color/button_background"
+            android:textColor="@color/button_text_color"
+            android:layout_marginTop="16dp" />
+
+        <!-- GActivity: 6 -->
+        <Button
+            android:id="@+id/startButton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_guided_exercise_6"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:background="@color/button_background"
+            android:textColor="@color/button_text_color"
+            android:layout_marginTop="16dp" />
+
+        <!-- GActivity: 7 -->
+        <Button
+            android:id="@+id/startButton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_guided_exercise_7"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:background="@color/button_background"
+            android:textColor="@color/button_text_color"
+            android:layout_marginTop="16dp" />
+
+        <!-- GActivity: 8 -->
+        <Button
+            android:id="@+id/startButton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_guided_exercise_8"
+            android:textSize="18sp"
+            android:padding="16dp"
+            android:background="@color/button_background"
+            android:textColor="@color/button_text_color"
+            android:layout_marginTop="16dp" />
+
+        <!-- GActivity: 12 -->
         <Button
             android:id="@+id/startButton12"
             android:layout_width="wrap_content"
@@ -44,6 +95,7 @@
             android:textColor="@color/button_text_color"
             android:layout_marginTop="16dp" />
 
+        <!-- GActivity: 13 -->
         <Button
             android:id="@+id/startButton13"
             android:layout_width="wrap_content"
@@ -55,6 +107,7 @@
             android:textColor="@color/button_text_color"
             android:layout_marginTop="16dp" />
 
+        <!-- GActivity: 14 -->
         <Button
             android:id="@+id/startButton14"
             android:layout_width="wrap_content"
@@ -66,6 +119,7 @@
             android:textColor="@color/button_text_color"
             android:layout_marginTop="16dp" />
 
+        <!-- GActivity: 15 -->
         <Button
             android:id="@+id/startButton15"
             android:layout_width="wrap_content"

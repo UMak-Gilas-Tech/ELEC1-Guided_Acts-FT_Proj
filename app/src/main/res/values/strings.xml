@@ -1,9 +1,15 @@
 <resources>
     <string name="app_name">Guided Exercises</string>
-    <string name="button_guided_exercise_12">Start Guided Exercise 12</string>
-    <string name="button_guided_exercise_13">Start Guided Exercise 13</string>
-    <string name="button_guided_exercise_14">Start Guided Exercise 14</string>
-    <string name="button_guided_exercise_15">Start Guided Exercise 15</string>
+
+    <string name="button_guided_exercise_5">Guided Exercise 5</string>
+    <string name="button_guided_exercise_6">Guided Exercise 6</string>
+    <string name="button_guided_exercise_7">Guided Exercise 7</string>
+    <string name="button_guided_exercise_8">Guided Exercise 8</string>
+
+    <string name="button_guided_exercise_12">Guided Exercise 12</string>
+    <string name="button_guided_exercise_13">Guided Exercise 13</string>
+    <string name="button_guided_exercise_14">Guided Exercise 14</string>
+    <string name="button_guided_exercise_15">Guided Exercise 15</string>
 
     <string name="app_name_14">Drag and Drop Exercise</string>
     <string name="status_waiting">Status: Waiting for Action</string>

@@ -33,6 +33,18 @@
             </intent-filter>
         </activity>
 
+
+    <!-- ///// Assigned to Sebastian: /////  -->
+        <!-- Guided Activity 5 -->
+        <activity android:name=".GuidedActivityFive" android:exported="true" />
+        <!-- Guided Activity 6 -->
+        <activity android:name=".GuidedActivitySix" android:exported="true" />
+        <!-- Guided Activity 7 -->
+        <activity android:name=".GuidedActivitySeven" android:exported="true" />
+        <!-- Guided Activity 8 -->
+        <activity android:name=".GuidedActivityEight" android:exported="true" />
+
+    <!-- ///// Assigned to Mark : /////  -->
         <!-- Declaring GuidedActivityTwelve -->
         <activity
             android:name=".GuidedActivityTwelve"
@@ -40,10 +52,8 @@
             android:exported="true" />
 
         <!-- Declaring GA12Home -->
-        <activity
-            android:name=".GA12Home"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
-            android:exported="true" />
+        <activity android:name=".GA12Home" android:exported="true"
+            android:theme="@style/Theme.AppCompat.NoActionBar" />
 
         <!-- Guided Activity 13 -->
         <activity android:name=".GuidedActivityThirteen" android:exported="true" />

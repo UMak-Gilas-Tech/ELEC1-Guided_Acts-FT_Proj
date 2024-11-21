@@ -15,6 +15,10 @@ public class MainActivity extends AppCompatActivity {
 
         // Set up button and activity pairs
         Button[] buttons = {
+                findViewById(R.id.startButton5),
+                findViewById(R.id.startButton6),
+                findViewById(R.id.startButton7),
+                findViewById(R.id.startButton8),
                 findViewById(R.id.startButton12),
                 findViewById(R.id.startButton13),
                 findViewById(R.id.startButton14),
@@ -22,6 +26,10 @@ public class MainActivity extends AppCompatActivity {
         };
 
         Class<?>[] activities = {
+                GuidedActivityFive.class,
+                GuidedActivitySix.class,
+                GuidedActivitySeven.class,
+                GuidedActivityEight.class,
                 GuidedActivityTwelve.class,
                 GuidedActivityThirteen.class,
                 GuidedActivityFourteen.class,
@@ -29,6 +37,10 @@ public class MainActivity extends AppCompatActivity {
         };
 
         String[] activityNames = {
+                "Guided Exercise 5",
+                "Guided Exercise 6",
+                "Guided Exercise 7",
+                "Guided Exercise 8",
                 "Guided Exercise 12",
                 "Guided Exercise 13",
                 "Guided Exercise 14",
