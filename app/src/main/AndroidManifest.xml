@@ -3,6 +3,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.elecone.guidedexercise">
 
+    <!--  Specifies a system permission that the user must grant in order for the app to operate correctly.-->
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.SEND_SMS"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+
+
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -24,13 +33,13 @@
             </intent-filter>
         </activity>
 
-        <!-- Declaring GuidedActivityTwelve (renamed from GuidedActivity12) with NoActionBar theme -->
+        <!-- Declaring GuidedActivityTwelve -->
         <activity
             android:name=".GuidedActivityTwelve"
             android:theme="@style/Theme.AppCompat.NoActionBar"
             android:exported="true" />
 
-        <!-- Declaring GA12Home (renamed from GuidedActivityHome) with NoActionBar theme -->
+        <!-- Declaring GA12Home -->
         <activity
             android:name=".GA12Home"
             android:theme="@style/Theme.AppCompat.NoActionBar"
@@ -41,7 +50,9 @@
 
         <!-- Guided Activity 14 -->
          <activity android:name=".GuidedActivityFourteen" android:exported="true" />
-        <!-- <activity android:name=".GuidedActivityFifteen" android:exported="true" /> -->
+
+        <!-- Guided Activity 15 -->
+         <activity android:name=".GuidedActivityFifteen" android:exported="true" />
 
     </application>
 
