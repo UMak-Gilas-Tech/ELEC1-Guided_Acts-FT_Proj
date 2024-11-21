@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A1D37"
+    android:fontFamily="@font/roboto_regular"
+    tools:context=".GuidedActivityOne">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="92dp"
+        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="33dp"
+        android:fontFamily="@font/roboto_medium"
+        android:gravity="center"
+        android:text="EditText, TextView, and\nButton Guided Exercises"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/etNameGE1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/etAgeGE1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="49dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginBottom="56dp"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:hint="Age"
+        android:paddingStart="16dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0B0B0"
+        app:layout_constraintBottom_toTopOf="@+id/tvResultNameGE1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etNameGE1" />
+
+    <Button
+        android:id="@+id/btnClickGE1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginBottom="209dp"
+        android:backgroundTint="#1E3A8A"
+        android:text="Click"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvResultAgeGE1"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultAgeGE1" />
+
+    <TextView
+        android:id="@+id/tvResultAgeGE1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="98dp"
+        android:text="Age:"
+        android:textStyle="bold"
+        android:textColor="#B0B0B0"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnClickGE1"
+        app:layout_constraintStart_toStartOf="@+id/tvResultNameGE1"
+        app:layout_constraintTop_toBottomOf="@+id/tvResultNameGE1" />
+
+    <TextView
+        android:id="@+id/tvResultNameGE1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="8dp"
+        android:textStyle="bold"
+        android:text="Name:"
+        android:textColor="#B0B0B0"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/tvResultAgeGE1"
+        app:layout_constraintStart_toStartOf="@+id/etAgeGE1"
+        app:layout_constraintTop_toBottomOf="@+id/etAgeGE1" />
+
+    <EditText
+        android:id="@+id/etNameGE1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="7dp"
+        android:background="@drawable/rounded_dark_background"
+        android:ems="10"
+        android:hint="Full name"
+
+        android:paddingStart="16dp"
+        android:inputType="text"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#B0B0B0"
+        app:layout_constraintBottom_toTopOf="@+id/etAgeGE1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
