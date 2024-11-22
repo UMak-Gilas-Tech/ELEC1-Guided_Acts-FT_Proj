@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title of the activity -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMPLOYEE PAYROLL COMPUTATION"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Subtitle for the summary details section -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SUMMARY DETAILS"
+        android:textStyle="bold"
+        android:textSize="16sp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:layout_gravity="center" />
+
+    <!-- Employee ID section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Employee ID:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_employee_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="EMP1203"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Name section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Name:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Papsi"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Position Code section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Position Code:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_position_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="A"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Civil Status section -->
+    <LinearLayout
+        android:layout_marginBottom="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Civil Status:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_civil_status"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Single"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Number of Days Worked section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="No. of Days Worked:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_days_worked"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="21"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Basic Pay section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Basic Pay:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_basic_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Php 10,500.00"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- SSS Contribution section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="SSS Contribution:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_sss_contribution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Php 735.00"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Withholding Tax section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_marginBottom="8dp"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Withholding Tax:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_withholding_tax"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Php 1,050.00"
+            android:paddingLeft="8dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Net Pay section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Net Pay:"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/text_summary_net_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Php 8,715.00"
+            android:paddingLeft="8dp"
+            android:paddingBottom="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <!-- Back button section -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:layout_marginVertical="54dp"
+            android:id="@+id/button_back"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="BACK" />
+    </LinearLayout>
+
+</LinearLayout>

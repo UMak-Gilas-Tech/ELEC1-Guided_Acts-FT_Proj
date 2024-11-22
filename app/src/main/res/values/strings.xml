@@ -1,3 +1,46 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Guided Exercises</string>
+
+    <string name="button_guided_exercise_1">GE1: EditText TextView + Button</string>
+    <string name="button_guided_exercise_2">GE2: Toast</string>
+    <string name="button_guided_exercise_3">GE3: Simple Computation</string>
+    <string name="button_guided_exercise_4">GE4: TextPassword + TextColor</string>
+
+    <string name="button_guided_exercise_5">GE5: RadioGroup, Button + BGColor</string>
+    <string name="button_guided_exercise_6">GE6: CheckBox</string>
+    <string name="button_guided_exercise_7">GE7: RatingBar + AlertDialog</string>
+    <string name="button_guided_exercise_8">GE8: Spinner</string>
+
+    <string name="button_guided_exercise_9">GE9: ListView</string>
+    <string name="button_guided_exercise_10">GE10: WebView + AutoComplete</string>
+    <string name="button_guided_exercise_11">GE11: Intent</string>
+
+    <string name="button_guided_exercise_12">GE12: Splash Screen</string>
+    <string name="button_guided_exercise_13">GE13: SQLite</string>
+    <string name="button_guided_exercise_14">GE14: Drag and Drop</string>
+    <string name="button_guided_exercise_15">GE15: SMS and Phone Call</string>
+
+    <string name="button_guided_exercise_16">GE16: Email and Camera</string>
+    <string name="button_guided_exercise_17">GE17: Notification + Broadcast Receiver</string>
+
+    <string name="button_guided_mp1">MP1: </string>
+    <string name="button_guided_mp2">MP2: Android Simple Calculator</string>
+    <string name="button_guided_mp3">MP3: Semestral Grade Computation</string>
+    <string name="button_guided_mp4">MP4: Employee Payroll Computation</string>
+
+    <string name="button_guided_credits">Credits: </string>
+
+    <string name="app_name_14">Drag and Drop Exercise</string>
+    <string name="status_waiting">Status: Waiting for Action</string>
+    <string name="batman">Batman</string>
+    <string name="superman">Superman</string>
+    <string name="ironman">Ironman</string>
+    <string name="wolverine">Wolverine</string>
+    <string name="drop_area_hint">Drag and Drop Your Hero Here!</string>
+    <string name="drag_started">ACTION_DRAG_STARTED</string>
+    <string name="drag_entered">ACTION_DRAG_ENTERED</string>
+    <string name="drag_exited">ACTION_DRAG_EXITED</string>
+    <string name="drag_dropped">ACTION_DROP</string>
+    <string name="drag_ended">ACTION_DRAG_ENDED</string>
+    <string name="drag_and_drop_title">Drag and Drop</string>
 </resources>

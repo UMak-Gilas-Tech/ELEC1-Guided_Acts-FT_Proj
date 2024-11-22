@@ -2,9 +2,191 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:padding="16dp"
+
     tools:context=".MainActivity">
+
+    <!-- Title Text -->
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Guided Exercises (By: Gilas Tech)"
+        android:fontFamily="@font/roboto_medium"
+        android:textSize="22sp"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="HardcodedText" />
+
+    <!-- ScrollView for making content scrollable -->
+    <ScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingBottom="26dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/titleText"
+        tools:layout_editor_absoluteX="16dp">
+
+        <!-- LinearLayout for Buttons (Inside ScrollView) -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="40dp"
+            android:orientation="vertical">
+
+            <!-- Buttons for each Guided Exercise -->
+            <Button
+                android:id="@+id/startButton1"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_1" />
+
+            <Button
+                android:id="@+id/startButton2"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_2" />
+
+            <Button
+                android:id="@+id/startButton3"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_3" />
+
+            <Button
+                android:id="@+id/startButton4"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_4" />
+
+            <Button
+                android:id="@+id/startButton5"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_5" />
+
+            <Button
+                android:id="@+id/startButton6"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_6" />
+
+            <Button
+                android:id="@+id/startButton7"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_7" />
+
+            <Button
+                android:id="@+id/startButton8"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_8" />
+
+            <Button
+                android:id="@+id/startButton9"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_9" />
+
+            <Button
+                android:id="@+id/startButton10"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_10" />
+
+            <Button
+                android:id="@+id/startButton11"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_11" />
+
+            <Button
+                android:id="@+id/startButton12"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_12"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:id="@+id/startButton13"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_13" />
+
+            <Button
+                android:id="@+id/startButton14"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_14"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:id="@+id/startButton15"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_15"
+                tools:ignore="TextSizeCheck" />
+
+            <Button
+                android:id="@+id/startButton16"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_16" />
+
+            <Button
+                android:id="@+id/startButton17"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_exercise_17" />
+
+
+            <Button
+                android:id="@+id/startButton18"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_mp1" />
+
+            <Button
+                android:id="@+id/startButton19"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_mp2" />
+
+            <Button
+                android:id="@+id/startButton20"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_mp3" />
+
+            <Button
+                android:id="@+id/startButton21"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_mp4" />
+
+            <Button
+                android:id="@+id/startButton22"
+                style="@style/CustomButtonStyle"
+                android:drawableStart="@drawable/ic_exercise_icon"
+                android:text="@string/button_guided_credits" />
+
+            <TextView
+                android:id="@+id/dummyText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text=" "
+                tools:ignore="HardcodedText" />
+
+        </LinearLayout>
+    </ScrollView>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
