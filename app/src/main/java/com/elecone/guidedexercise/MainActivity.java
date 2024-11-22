@@ -20,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
                 findViewById(R.id.startButton7), findViewById(R.id.startButton8), findViewById(R.id.startButton9),
                 findViewById(R.id.startButton10), findViewById(R.id.startButton11), findViewById(R.id.startButton12),
                 findViewById(R.id.startButton13), findViewById(R.id.startButton14), findViewById(R.id.startButton15),
-                findViewById(R.id.startButton16), findViewById(R.id.startButton17)
+                findViewById(R.id.startButton16), findViewById(R.id.startButton17), findViewById(R.id.startButton18),
+                findViewById(R.id.startButton19), findViewById(R.id.startButton20), findViewById(R.id.startButton21),
+                findViewById(R.id.startButton22)
         };
 
         Class<?>[] activities = {
@@ -29,7 +31,9 @@ public class MainActivity extends AppCompatActivity {
                 GuidedActivitySeven.class, GuidedActivityEight.class, GuidedActivityNine.class,
                 GuidedActivityTen.class, GuidedActivityEleven.class, GuidedActivityTwelve.class,
                 GuidedActivityThirteen.class, GuidedActivityFourteen.class, GuidedActivityFifteen.class,
-                GuidedActivitySixteen.class, GuidedActivitySeventeen.class
+                GuidedActivitySixteen.class, GuidedActivitySeventeen.class,
+                MachineProblemOne.class, MachineProblemTwo.class, MachineProblemThree.class,
+                MachineProblemFour.class, Credits.class
         };
 
         String[] activityNames = {
@@ -38,7 +42,9 @@ public class MainActivity extends AppCompatActivity {
                 "Guided Exercise 7", "Guided Exercise 8", "Guided Exercise 9",
                 "Guided Exercise 10", "Guided Exercise 11", "Guided Exercise 12",
                 "Guided Exercise 13", "Guided Exercise 14", "Guided Exercise 15",
-                "Guided Exercise 16", "Guided Exercise 17"
+                "Guided Exercise 16", "Guided Exercise 17",
+                "MachineProblemOne", "MachineProblemTwo", "MachineProblemThree",
+                "MachineProblemFour","Credits"
         };
 
         // Set onClickListeners for all buttons

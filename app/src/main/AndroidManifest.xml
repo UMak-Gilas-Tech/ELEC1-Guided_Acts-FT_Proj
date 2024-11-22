@@ -75,6 +75,21 @@
         <!-- Guided Activity 17 -->
         <activity android:name=".GuidedActivitySeventeen" android:exported="true" />
 
+        <!-- Machine Problem #1 -->
+        <activity android:name=".MachineProblemOne" android:exported="true" />
+        <!-- Machine Problem #2 -->
+        <activity android:name=".MachineProblemTwo" android:exported="true" />
+        <!-- Machine Problem #3 -->
+        <activity android:name=".MachineProblemThree" android:exported="true" />
+        <!-- Machine Problem #4 -->
+        <activity android:name=".MachineProblemFour" android:exported="true" />
+        <!-- Machine Problem #4::Summary -->
+        <activity android:name=".MachineProblemFour_Summary" android:exported="true" />
+
+
+        <!-- Credits -->
+        <activity android:name=".Credits" android:exported="true" />
+
     </application>
 
 </manifest>
