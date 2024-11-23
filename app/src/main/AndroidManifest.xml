@@ -6,11 +6,18 @@
     <!--  Specifies a system permission that the user must grant in order for the app to operate correctly.-->
     <uses-feature
         android:name="android.hardware.telephony"
-        android:required="true" />
+        android:required="true"
+        />
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false"
+        />
 
     <uses-permission android:name="android.permission.SEND_SMS"/>
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+
 
 
     <application
@@ -59,14 +66,12 @@
         <activity android:name=".GuidedActivityEleven" android:exported="true" />
         <!-- Declaring Act11Result -->
         <activity android:name=".GuidedActivityElevenResult" android:exported="true" />
-
         <!-- Guided Activity 12 -->
         <activity android:name=".GuidedActivityTwelve" android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
         <!-- Declaring GA12Home -->
         <activity android:name=".GA12Home" android:exported="true"
             android:theme="@style/Theme.AppCompat.NoActionBar" />
-
         <!-- Guided Activity 13 -->
         <activity android:name=".GuidedActivityThirteen" android:exported="true" />
         <!-- Guided Activity 14 -->
