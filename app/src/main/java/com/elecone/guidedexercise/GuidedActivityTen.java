@@ -18,7 +18,7 @@ public class GuidedActivityTen extends BaseActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ga10_web_view);
+        setContentView(R.layout.activity_ge10_web_view);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("Guided Exercise #10: WebView & AutoCompleteTextView");

@@ -57,6 +57,8 @@
         <activity android:name=".GuidedActivityTen" android:exported="true" />
         <!-- Guided Activity 11 -->
         <activity android:name=".GuidedActivityEleven" android:exported="true" />
+        <!-- Declaring Act11Result -->
+        <activity android:name=".GuidedActivityElevenResult" android:exported="true" />
 
         <!-- Guided Activity 12 -->
         <activity android:name=".GuidedActivityTwelve" android:exported="true"

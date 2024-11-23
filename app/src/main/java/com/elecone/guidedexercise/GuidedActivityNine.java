@@ -17,7 +17,7 @@ public class GuidedActivityNine extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_ga9_list_view);
+        setContentView(R.layout.activity_ge9_list_view);
 
         if (getSupportActionBar() != null) {
             getSupportActionBar().setTitle("Guided Exercise #9: List View");
