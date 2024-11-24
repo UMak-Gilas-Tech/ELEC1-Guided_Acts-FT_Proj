@@ -7,6 +7,7 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#DAE0FF</color>
+    <color name="gray">#808080</color>
 
     <!-- Accent color -->
     <color name="colorAccent">#FF4081</color>
