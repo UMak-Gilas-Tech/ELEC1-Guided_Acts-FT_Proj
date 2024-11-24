@@ -6,12 +6,18 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.app.Activity;
 
-public class Credits extends Activity {
+public class Credits extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_credits);
+
+        if (getSupportActionBar() != null) {
+            getSupportActionBar().setTitle("Credits (Gilas Tech)");
+            getSupportActionBar().setHomeAsUpIndicator(android.R.drawable.ic_menu_revert);
+            getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        }
 
         // Setting title and subtitle text dynamically
         TextView titleTextView = findViewById(R.id.tv_title);

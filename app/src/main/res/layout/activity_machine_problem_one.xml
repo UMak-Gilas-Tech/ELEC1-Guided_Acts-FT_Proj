@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="20dp">
+
+        <!-- Job Section -->
+        <TextView
+            android:id="@+id/jobResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/jobResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Job results will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Triangle Section -->
+        <TextView
+            android:id="@+id/triangleResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#1: Triangle Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/triangleResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results for Triangle will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Circle Section -->
+        <TextView
+            android:id="@+id/circleResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#2: Circle Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+
+        <TextView
+            android:id="@+id/circleResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results for Circle will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Subclass Section -->
+        <TextView
+            android:id="@+id/subclassResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#3: Subclass Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/subclassResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Subclass results will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Bank Section -->
+        <TextView
+            android:id="@+id/bankResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#4: Bank Balance Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/bankResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Bank balance details will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Marks Section -->
+        <TextView
+            android:id="@+id/marksResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#5: Marks Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/marksResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Marks percentage details will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Abstract Class Methods Section -->
+        <TextView
+            android:id="@+id/abstractResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#6: Abstract Methods Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/abstractResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Results for abstract methods will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+        <!-- Shape Area Section -->
+        <TextView
+            android:id="@+id/shapeResults"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prob#7: Shape Area Results"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:paddingBottom="8dp"
+            android:textColor="#000" />
+
+        <TextView
+            android:id="@+id/shapeResultDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Shape area results will appear here."
+            android:textSize="16sp"
+            android:paddingBottom="16dp"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+</ScrollView>
