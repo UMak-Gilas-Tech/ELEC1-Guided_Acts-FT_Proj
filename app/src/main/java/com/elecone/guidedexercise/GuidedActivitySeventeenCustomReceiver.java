@@ -8,7 +8,13 @@ import android.widget.Toast;
 public class GuidedActivitySeventeenCustomReceiver extends BroadcastReceiver {
     @Override
     public void onReceive(Context context, Intent intent) {
-        Toast.makeText(context,intent.getAction(),Toast.LENGTH_SHORT).show();
+        try {
+            String action = intent.getAction();
+            if (action != null) {
+                Toast.makeText(context, action, Toast.LENGTH_SHORT).show();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
-
 }
