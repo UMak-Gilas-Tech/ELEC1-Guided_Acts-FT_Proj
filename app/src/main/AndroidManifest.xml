@@ -17,7 +17,7 @@
     <uses-permission android:name="android.permission.CALL_PHONE"/>
     <uses-permission android:name="android.permission.INTERNET"/>
     <uses-permission android:name="android.permission.CAMERA"/>
-
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
 
 
     <application
@@ -40,6 +40,25 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <receiver
+            android:name=".GuidedActivitySeventeenMyReceiver"
+            android:exported="false">
+            <!-- Add any intent-filters this receiver listens to -->
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.intent.action.AIRPLANE_MODE" />
+            </intent-filter>
+        </receiver>
+
+        <receiver
+            android:name=".GuidedActivitySeventeenCustomReceiver"
+            android:exported="false">
+            <!-- Add the custom action used in the broadcast -->
+            <intent-filter>
+                <action android:name="com.elecone.guidedexercise.MY_CUSTOM_ACTION" />
+            </intent-filter>
+        </receiver>
 
 
         <!-- Guided Activity 1 -->
