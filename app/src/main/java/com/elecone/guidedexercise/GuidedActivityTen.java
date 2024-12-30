@@ -59,7 +59,7 @@ public class GuidedActivityTen extends BaseActivity{
                     url = "www." + url;
                 }
                 if(!url.startsWith("http://") ){
-                    url = "http://" + url;
+                    url = "https://" + url;
                 }
                 browser.loadUrl(url);
             }
